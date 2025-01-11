@@ -1,0 +1,49 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables></variables><block type="pxt-on-start" id="1y}tvv/`k9$o6Hh(bTY5" x="0" y="0"></block><block type="device_forever" id="J8,s)Pt3ZZdoSer~`I6}" x="205" y="0"></block><block type="device_button_event" id="V0!oN/3RZi0py#PO7uTz" x="723" y="35"><field name="NAME">Button.AB</field><statement name="HANDLER"><block type="basic_show_icon" id="YA)#0:3vS!:.GkF[.C0?"><field name="i">IconNames.SmallHeart</field><next><block type="basic_show_icon" id="M,,iH8s:9GikC~@mEoCC"><field name="i">IconNames.Happy</field></block></next></block></statement></block><block type="device_button_event" id="HS^`Z~J`+yJ!hn$x1u.," x="34" y="211"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="device_show_number" id="^-chz3g.$)#cau7@D62U"><value name="number"><shadow type="math_number" id="[?++4Od/zW^)j,n`ROkv"><field name="NUM">0</field></shadow><block type="device_temperature" id="uAOCP1@p;E2=KaS*3Jdg"></block></value></block></statement></block><block type="input_logo_event" id="ph~[K#}Kpc9bQbtON%!7" x="368" y="213"><field name="action">TouchButtonEvent.Pressed</field><statement name="HANDLER"><block type="device_clear_display" id="ya7;s/R5Qvv)W!RuBJ.Z"><next><block type="device_show_number" id="IcfsSt|HWK|IxtQ|C0;W"><value name="number"><shadow type="math_number" id="TVTHwGJLJgD=sC,z_H.l"><field name="NUM">0</field></shadow><block type="device_get_light_level" id="}gIXXa7XG%lX9!Ek/x|L"></block></value></block></next></block></statement></block><block type="device_gesture_event" id="u+PxMj0ByS*N7Ux1M+mH" x="458" y="545"><field name="NAME">Gesture.Shake</field><statement name="HANDLER"><block type="device_show_leds" id="KCwvHEEbgqS-cvCJ,[o3"><field name="LEDS">`
+        . . # . # 
+        # # # # # 
+        # . # . . 
+        . # . # . 
+        . # . . #
+        `</field><next><block type="device_show_leds" id="0r#iy_:GU0hrcNj*(.`n"><field name="LEDS">`
+        # . # . . 
+        # # # # # 
+        . . # . # 
+        . # . # . 
+        # . . # .
+        `</field><next><block type="device_show_leds" id="?0GIJ0Re_lXqt%ilH}CD"><field name="LEDS">`
+        . . # . # 
+        # # # # # 
+        # . # . . 
+        . # . # . 
+        . # . . #
+        `</field><next><block type="device_show_leds" id="ARM9YTI+%`pVZzkWp~tZ"><field name="LEDS">`
+        # . # . . 
+        # # # # # 
+        . . # . # 
+        . # . # . 
+        # . . # .
+        `</field></block></next></block></next></block></next></block></statement></block><block type="device_gesture_event" id="*NJ`gh;{kmv_t*V/pJnL" x="704" y="550"><field name="NAME">Gesture.TiltLeft</field><statement name="HANDLER"><block type="device_show_leds" id="4UnPsZFXvcus}8c1)li`"><field name="LEDS">`
+        . . # . # 
+        # # # # # 
+        # . # . . 
+        . # . # . 
+        . # . # .
+        `</field></block></statement></block><block type="device_gesture_event" id="@qr)Sw}?bv:BA~*19%A1" x="1186" y="540"><field name="NAME">Gesture.LogoUp</field><statement name="HANDLER"><block type="device_show_leds" id="VbBgV=U|^49AF~mmTh)`"><field name="LEDS">`
+        . . # . . 
+        # # # # # 
+        # . # . # 
+        . # . # . 
+        . # . # .
+        `</field></block></statement></block><block type="device_gesture_event" id="GTJBV_M7FWI|b9B;H=4`" x="954" y="556"><field name="NAME">Gesture.TiltRight</field><statement name="HANDLER"><block type="device_show_leds" id=":Qnf+UC=B$rZm57I_6qy"><field name="LEDS">`
+        # . # . . 
+        # # # # # 
+        . . # . # 
+        . # . # . 
+        . # . # .
+        `</field></block></statement></block><block type="input_on_sound" id="l49)|p-CApDcBdICQ#}Q" x="50" y="630"><field name="sound">DetectedSound.Loud</field><statement name="HANDLER"><block type="basic_show_icon" id="@X=lD~(8QmhYOZus9,lJ"><field name="i">IconNames.Heart</field><next><block type="basic_show_icon" id="yqrT{]3DJuz-z)I(g-x~"><field name="i">IconNames.Yes</field></block></next></block></statement></block><block type="device_gesture_event" id="`9lM-Q_Dct3iIXss.|YA" x="1208" y="886"><field name="NAME">Gesture.LogoDown</field><statement name="HANDLER"><block type="device_show_leds" id="#}G~;T090pPh+^K(.])$"><field name="LEDS">`
+        # . # . # 
+        # # # # # 
+        . . # . . 
+        . # . # . 
+        . # . # .
+        `</field></block></statement></block></xml>
